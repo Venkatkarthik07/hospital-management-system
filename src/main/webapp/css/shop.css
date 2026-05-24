@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+}
+
+.navbar {
+    background: #27ae60;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+}
+
+.rating {
+    color: orange;
+}
+/* CART BUTTON STYLE */
+.cart-btn {
+    text-decoration: none;   /* remove underline */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 0px solid white; 
+    transition: 0.3s;
+}
+
+.cart-btn:hover {
+    background:red; 
+    color: white;
+}
+
+
+.cart-btn1 {
+    text-decoration: none;   /* remove underline */
+    color: black;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 0px solid blue; 
+    transition: 0.3s;
+}
+
+.cart-btn1:hover {
+    background:red; 
+    color: white;
+}
+

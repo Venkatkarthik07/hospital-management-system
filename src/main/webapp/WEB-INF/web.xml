@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+    <servlet-name>PatientServlet</servlet-name>
+    <servlet-class>com.hms.servlet.PatientServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>PatientServlet</servlet-name>
+    <url-pattern>/PatientServlet</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>AppointmentServlet</servlet-name>
+    <servlet-class>com.hms.servlet.AppointmentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AppointmentServlet</servlet-name>
+    <url-pattern>/AppointmentServlet</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>DoctorServlet</servlet-name>
+    <servlet-class>com.hms.servlet.DoctorServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DoctorServlet</servlet-name>
+    <url-pattern>/DoctorServlet</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.hms.servlet.AdminServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>PharmacyServlet</servlet-name>
+    <servlet-class>com.hms.servlet.PharmacyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>PharmacyServlet</servlet-name>
+    <url-pattern>/PharmacyServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.hms.servlet.CartServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/CartServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.hms.servlet.OrderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>com.hms.servlet.PaymentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/PaymentServlet</url-pattern>
+</servlet-mapping>
+
+
+
+<welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+
+
+</web-app>

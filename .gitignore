@@ -1,0 +1,27 @@
+# Eclipse build and bin outputs
+build/
+bin/
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Package archives
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Dependency directories
+node_modules/
+jsp_servlet_pages/
+
+# Eclipse settings (local workspace configs)
+.settings/
+
+# OS metadata
+Thumbs.db
+.DS_Store

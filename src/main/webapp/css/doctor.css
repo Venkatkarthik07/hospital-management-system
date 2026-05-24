@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+}
+
+.navbar {
+    background: #28a745;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #28a745;
+    color: white;
+}
